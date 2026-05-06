@@ -1,0 +1,45 @@
+.follow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.follow .top{
+    width: 30%;
+    margin: 50px 60px;
+    padding: 13px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+
+    & .icons{
+        font-size: 1.3em;
+        cursor: pointer;
+    }
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    & img{
+        width: 15%;
+        opacity: 0.7;
+    }
+
+    & .sample{
+        opacity: 1;
+    }
+
+    & .booking{
+        font-size: 1.2em;
+        opacity: .4;
+    }
+}

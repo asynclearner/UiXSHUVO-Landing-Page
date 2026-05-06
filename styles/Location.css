@@ -1,0 +1,54 @@
+.location{
+    height: 100vh;
+    margin: 10px 20px;
+}
+
+
+.location .Heading1{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10% 15px;
+    justify-content: space-between;
+
+    & h2{
+        font-size: 2em;
+        letter-spacing: 1.3px;
+        margin-bottom: 0.5%;
+    }
+}
+
+.locate{
+    display: flex;
+    margin: 0 40px;
+    border: 2px solid;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+
+.locate > div{
+    display: flex;
+    /* margin: 15% 0; */
+    border: 2px solid;
+    width: 33%;
+    height: 20vw;
+    border-radius: 20px;
+}
+
+.locate .dest, .destin{
+    background-color: rgb(235, 235, 235);
+    bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 13%;
+}
+
+.locate .desti{
+    height: 71.5vh;
+}
+
+.locate .dest{
+    position: absolute;
+
+}
